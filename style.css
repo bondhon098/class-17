@@ -1,0 +1,261 @@
+.header-main{
+    background: #000000;
+}
+.header-icon img{
+    width: 100px;
+}
+.header-menu{
+
+}
+.header-menu ul{
+    list-style: none;
+}
+.header-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.header-menu ul li a:hover{
+    text-decoration: underline;
+}
+.header-menu ul li ul{
+    width: 200px;
+    position: absolute;
+    background: black;
+    top: 140%;
+    left: 10%;
+    border-top: 5px solid white;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.header-menu ul li ul li{
+    display: block;
+    text-align: left;
+}
+.header-menu ul li ul li:hover{
+    background: white;
+    color: black;
+}
+.header-menu ul li ul li a{
+    display: block;
+}
+.header-menu ul li ul li a:hover{
+    color: black;
+}
+/* banner */
+.banner{
+    background: url(./a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+}
+.banner-text h1{
+  text-transform: uppercase;
+  color: #223127;
+  font-weight: 800;
+}
+.banner-text p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner-button{
+    
+}
+/* about */
+.about{
+    background: #87a471;
+    text-align: center;
+}
+.about h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-top: 30px;
+}
+.about-text{
+    padding: 80px 0px;
+}
+.about-text p{
+    text-align: justify;
+    color: white;
+    font-weight: 300;
+}
+.about-img{
+    max-width: 100%;
+}
+.about-img img{
+    width: 300px;
+}
+/* what ii doooo */
+.what{
+    background: #606a64;
+    margin: auto;
+}
+.what-text{
+    text-align: center;
+}
+.what-text h1{ 
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #e8dfda;
+    padding-top: 50px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+.what-text h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #e0e1e2;
+    padding-bottom: 20px;
+}
+.what-text p{
+    width: 700px;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+}
+.box1{
+    margin: 0px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #ffffff;
+}
+.box-img img{
+    width: 30px;
+    height: 30px;
+}
+.box-text h5{
+    color: #577089;
+    text-transform: capitalize;
+}
+.box-text p{
+    color: #a6b2bf;
+    text-align: left;
+}
+/* latest */
+.subha{
+    background: #87a471;
+}
+.subha-text h2{ 
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 70px;
+}
+.subha-text p{
+    color: white;
+}
+.latest-img img{
+    width: 545px;
+}
+.latest-text p{
+    padding-top: 20px;
+    color: #4f6984;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.latest-text span{
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+.fatest-img{
+
+}
+.fatest-img img{
+    width: 250px;
+}
+/* teamm */
+.team{
+    background: #5b9776;
+}
+.team h2{
+    padding-top: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+}
+.team h2::after{
+    content: "";
+    border-bottom: 2px solid white;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    margin-top: 7px;
+}
+.team-img{
+    padding-top: 40px;
+}
+.team-img img{
+    width: 300px;
+}
+
+.team-icon ul{
+    list-style: none;
+}
+.team-icon ul li{
+    display: inline-block;
+}
+.team-icon ul li a{
+    font-size: 25px;
+    display: inline-block;
+    padding-left: 10px;
+    color: white;
+}
+.team-icon ul li a:hover{ 
+    color: yellow;
+}
+.maisa{
+    position: relative;
+}
+.maisa ul {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+/* with useee */
+.with{
+    background: #606a64;
+    padding: 80px 0px;
+}
+.with h2{
+    padding-top: 50px;
+    color: #e7e9eb;
+}
+.with p{
+    color: white;
+}
+/* foterrr */
+.foter{
+    background: #000000;
+    text-align: center;
+    padding: 10px 0px;
+}
+.foter p{
+    color: white;
+    text-transform: capitalize;
+}
+.oha{
+    font-size: 30px;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+
